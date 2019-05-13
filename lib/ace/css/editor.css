@@ -528,3 +528,22 @@ styles.join("\n")
     position: absolute;
     z-index: 8;
 }
+
+.ace_mobile-button {
+    background: white;
+    box-shadow: 1px 3px 2px grey;
+}
+.ace_mobile-button {
+    padding: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    color: black;
+}
+
+.ace_mobile-button:hover {
+    background-color: #eee;
+    opacity:1;
+}
+.ace_mobile-button:active {
+    background-color: #ddd;
+}
